@@ -1,0 +1,56 @@
+*{
+    font-size: 1em= 16pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: rgb(81, 3, 3);
+    font-size: 5em;
+}
+
+h5{
+    font-size: 2em;
+    line-height: .01em;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:rgb(213, 46, 0);
+    font-weight: bold;
+
+}
+
+a:link{
+    color:red;
+
+}
+a:visited{
+    color:rgb(255, 162, 0);
+}
+
+a:hover{
+    color:rgb(114, 4, 4);
+}
+
+
+p{
+    line-height: 1em;
+    font-size: 1em;
+    text-align: center;
+    width: 30%;
+    height: auto;
+}
+
+footer{
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    background-color: rgb(160, 196, 227);
+    background-image: url(blue-heron-real.jpg);
+}
