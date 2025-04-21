@@ -52,5 +52,8 @@ ul{
 
 body{
     background-color: rgb(160, 196, 227);
-    background-image: url(blue-heron-real.jpg);
+    background-image: url("Images/blue-heron-real.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
 }
