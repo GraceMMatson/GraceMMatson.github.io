@@ -94,18 +94,24 @@ body{
     position: relative;
 }
 
-.container{
-    display: flex;
+.columns {
+    float:left;
+}
+
+.col-1 {
+    width: 8.33%;
     text-align: justify;
 }
 
-.col2{
-    width: 100%;
-    padding: 5%;
-    color: rgb(255, 205, 141);
+.col-2 {
+    width: 16.66%;
+    text-align: justify;
 }
 
-.col1{
-    width: 100%;
-    padding: 5%
+@media only screen and (max-width: 400px) {
+    .column {
+    width: 150%;
+    float: left;
+    margin: 0%;
+    }
 }
