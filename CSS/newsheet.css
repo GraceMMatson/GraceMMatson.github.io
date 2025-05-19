@@ -1,0 +1,58 @@
+ul{
+    float: right;
+    list-style: none;
+    background-color: rgb(102, 102, 102);
+    padding: 1%;
+}
+
+li{
+    display: inline;
+    color: rgb(255, 255, 255);
+}
+
+a:link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: rgb(35, 35, 35);
+     text-decoration: none;
+}
+
+
+h1{
+    padding-top: 10%;
+}
+
+.footer{
+   background-color: rgb(107, 107, 107);
+   color: rgb(255, 255, 255);
+   padding: 3%;
+}
+
+hr{
+    height: 100%;
+}
+
+p{
+    padding: 5%;
+}
+
+.button{
+    background-color: beige;
+}
+
+nav{
+    display: inline;
+}
+
+img{
+    padding: 5%;
+}
