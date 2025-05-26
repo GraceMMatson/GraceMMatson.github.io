@@ -56,3 +56,37 @@ nav{
 img{
     padding: 5%;
 }
+
+@keyframes slideinleft {
+    from{
+        transform: translateX(-300px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+
+.heading-1 {
+    animation-name: slideinleft;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+.btn{
+    font-weight: 700;
+    background-color: rgb(72, 72, 72);
+    color: rgb(255, 255, 255);
+
+    transition: transform 0.3s ease-in-out 0.1s;
+}
+
+.btn:hover {
+    transform: translateY(-10px);
+    color: black;
+
+}
