@@ -111,17 +111,27 @@ li{
 
 #spoiler{
     scale: 50%;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 7s linear infinite;
 }
 
 #maintitle{
     position: relative;
     top: -12rem;
-    color: rgb(42, 31, 26);
+    color:rgb(255, 247, 237);
 }
 
+#characterstitle{
+    margin-bottom: 20%;
+}
 
 #logo{
     scale: 75%;
+}
+
+#mastersword{
+    position: relative;
+    z-index: 6;
 }
 
 
@@ -138,3 +148,18 @@ li{
 .educational {
     font-size: 1em;
 }
+
+
+
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+

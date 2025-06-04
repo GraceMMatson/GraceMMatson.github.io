@@ -1,0 +1,61 @@
+body{
+    position: relative;
+    z-index: 2;
+    color: rgb(255, 247, 237);
+    background-color: rgb(42, 31, 26);
+    margin-top:10px;
+}
+
+.container{
+    margin:15%;
+}
+
+
+h3{
+    font-family: "League Gothic", sans-serif;
+    font-size: 5em;
+}
+
+ul{
+    text-decoration:none;
+}
+
+li{
+    list-style-type: none;
+    font-family: "Sofia Sans Condensed";
+    line-height: 100%;
+    font-size:1.5em;
+}
+
+a{
+    color:  rgb(255, 247, 237);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(253, 239, 136);
+}
+
+.navbar{
+    position: fixed;
+    display: inline-block;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    width: 100%;
+    z-index: 5;
+    background-color: black;
+    background-image: url('/totk.images/swirly.pattern.jpeg');
+    background-size: cover;
+}
+
+.navdiv{
+    align-items: center;
+    text-align: right;
+    margin-right: 1%;
+}
+
+#logo{
+    scale: 75%;
+}
+
