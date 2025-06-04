@@ -1,0 +1,140 @@
+body{
+    position: relative;
+    z-index: 2;
+    color: rgb(255, 247, 237);
+    background-color: rgb(42, 31, 26);
+    background-image: url('/totk.images/main\ header\ image.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+.container{
+    width:auto;
+    margin-top: 5%;
+ 
+}
+
+h1{
+    font-family: "League Gothic", sans-serif;
+    font-size: 20em;
+    line-height: 90%;
+    margin-top: 20%;
+    position: relative;
+    left: -20rem;
+}
+
+
+h2{
+    font-family: "League Gothic", sans-serif;
+    font-size: 8em;
+    line-height: 90%;
+    margin-bottom: 20%;
+    position:relative;
+    left: -20rem;
+}
+
+h3{
+    font-family: "League Gothic", sans-serif;
+}
+
+p{
+    font-family: "Sofia Sans Condensed";
+    font-size: 1.5em;
+    line-height: 100%;
+}
+
+article{
+    margin-bottom: 10%;
+}
+
+footer{
+    position: relative;
+    display:block;
+    overflow: hidden;
+    width:100vw;
+    padding-top: 50px;
+    box-sizing: border-box;
+    z-index: 0;
+    background-color: black;
+    background-image: url('/totk.images/swirly.pattern.jpeg');
+    background-size: cover;
+    margin: 0%;
+}
+
+.footerinfo{
+    padding-left:10%;
+}
+
+a{
+    color:  rgb(255, 247, 237);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(253, 239, 136);
+}
+
+
+li{
+    list-style-type: none;
+    font-family: "Sofia Sans Condensed";
+    line-height: 75%;
+
+}
+
+.row{
+    float: none;
+}
+
+.navbar{
+    position: fixed;
+    display: inline-block;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    width: 100%;
+    z-index: 5;
+    background-color: black;
+    background-image: url('/totk.images/swirly.pattern.jpeg');
+    background-size: cover;
+}
+
+.navdiv{
+    align-items: center;
+    text-align: right;
+    margin-right: 1%;
+}
+
+
+
+#spoiler{
+    scale: 50%;
+}
+
+#maintitle{
+    position: relative;
+    top: -12rem;
+    color: rgb(42, 31, 26);
+}
+
+
+#logo{
+    scale: 75%;
+}
+
+
+.three{
+    margin-bottom:-55px;
+}
+
+.warning {
+    position: relative;
+    top: -7rem;
+    right: -10rem;
+}
+
+.educational {
+    font-size: 1em;
+}
