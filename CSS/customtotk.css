@@ -5,13 +5,13 @@ body{
     background-color: rgb(42, 31, 26);
     background-image: url('/totk.images/main\ header\ image.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100vw;
 }
 
 
 
 .container{
-    width:auto;
+    /* width:auto; */
     margin-top: 5%;
  
 }
@@ -151,6 +151,65 @@ li{
 
 
 
+@media screen and (max-width: 390px) {
+  body {
+    background-color: lightgreen;
+  }
+  h1{
+        left: 0rem;
+        font-size:10em;
+        margin-left: 5%;
+  }
+  h2{
+    left:0rem;
+    font-size:2em;
+    margin-left:5%;
+  }
+
+  #backgroundtitle{
+    font-size:5em;
+  }
+
+  #characterstitle{
+    font-size: 5em;
+  }
+
+  #maintitle{
+    position: relative;
+    top: 0rem;
+  }
+
+  #spoiler{
+    scale: 25%;
+}
+.warning {
+    position: relative;
+    top: -60rem;
+    right: -15rem;
+    }
+    
+  .content{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+.character-image{
+    margin-bottom:20%;
+}
+
+
+
+.contact{
+    margin-top:10%;
+}
+
+
+body{
+    background-size:200vw;
+}
+
+  
+}
+
 
 @-webkit-keyframes spin {
   0% { -webkit-transform: rotate(0deg); }
@@ -163,3 +222,46 @@ li{
 }
 
 
+/* w3 schools test */
+
+.character-wrapper {
+    position: relative;
+    
+  }
+  
+  .character-image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle-text {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .character-wrapper:hover .character-image {
+    opacity: 0.3;
+  }
+  
+  .character-wrapper:hover .middle-text {
+    opacity: 1;
+  }
+  
+  .image-text {
+    color:rgb(255, 247, 237);
+    font-family: "Sofia Sans Condensed";
+    font-size: 1.5em;
+    padding: 16px 32px;
+  }
+
+  /* end w3schools test */
