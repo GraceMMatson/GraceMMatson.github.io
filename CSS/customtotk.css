@@ -1,267 +1,327 @@
-body{
-    position: relative;
-    z-index: 2;
-    color: rgb(255, 247, 237);
-    background-color: rgb(42, 31, 26);
-    background-image: url('/totk.images/main\ header\ image.jpg');
-    background-repeat: no-repeat;
-    background-size: 100vw;
-}
+/*main container styling*/
+    body{
+        position: relative;
+        z-index: 2;
+        color: rgb(255, 247, 237);
+        background-color: rgb(42, 31, 26);
+        background-image: url('/totk.images/main\ header\ image.png');
+        background-repeat: no-repeat;
+        background-size: 100vw;
+    }
+
+    .container{
+        margin-top: 5%;
+    
+    }
+
+    article{
+        margin-bottom: 10%;
+    }
+
+    .three{
+        margin-bottom:-55px;
+    }
+        .row{
+        float: none;
+    }
+/*end*/
+
+/*drop down*/
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      border: none;
+    }
+
+    button{
+      border:none;
+      border-color: none;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      right: -20px;
+      background-color:rgb(253, 239, 136);
+      min-width: 500px;
+      height: 100vw;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+      z-index: 1;
+      animation: slideinright .5s ease-in-out;
+    }
+
+    .dropdown-content a {
+      color: rgb(42, 31, 26);
+      padding: 12px 40px;
+      font-family: "League Gothic";
+      font-size: 4em;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {background-color: rgb(42, 31, 26);
+    color: antiquewhite;}
+
+    .dropdown:hover .dropdown-content {display: block;}
+
+/*end*/
+
+
+/*text styling*/
+    h1{
+        font-family: "League Gothic", sans-serif;
+        font-size: 20em;
+        line-height: 90%;
+        margin-top: 20%;
+        position: relative;
+        left: -20rem;
+    }
+
+
+    h2{
+        font-family: "League Gothic", sans-serif;
+        font-size: 8em;
+        line-height: 90%;
+        margin-bottom: 20%;
+        position:relative;
+        left: -20rem;
+    }
+
+    h3{
+        font-family: "League Gothic", sans-serif;
+    }
+
+    p{
+        font-family: "Sofia Sans Condensed";
+        font-size: 1.5em;
+        line-height: 100%;
+    }
+
+        #maintitle{
+        position: relative;
+        top: -12rem;
+        color:rgb(255, 247, 237);
+    }
+
+    #characterstitle{
+        margin-bottom: 20%;
+    }
+
+/*end*/
+
+
+/* footer*/
+    footer{
+        position: relative;
+        display:block;
+        overflow: hidden;
+        width:100vw;
+        padding-top: 50px;
+        box-sizing: border-box;
+        z-index: 0;
+        background-color: black;
+        background-image: url('/totk.images/swirly.pattern.jpg');
+        background-size: cover;
+        margin: 0%;
+    }
+
+    .footerinfo{
+        padding-left:10%;
+    }
+/*end*/
+
+/*lists and links*/
+    a{
+        color:  rgb(255, 247, 237);
+        text-decoration: none;
+    }
+
+    a:hover{
+        color: rgb(253, 239, 136);
+    }
+
+    li{
+        list-style-type: none;
+        font-family: "Sofia Sans Condensed";
+        line-height: 75%;
+    }
+
+/*end*/
 
 
 
-.container{
-    /* width:auto; */
-    margin-top: 5%;
- 
-}
+/*nav bar*/
+    .navbar{
+        position: fixed;
+        display: inline-block;
+        top: 0px;
+        left: 0px;
+        height: 80px;
+        width: 100%;
+        z-index: 5;
+        background-color: black;
+        background-image: url('/totk.images/swirly.pattern.jpg');
+        background-size: cover;
+    }
 
-h1{
-    font-family: "League Gothic", sans-serif;
-    font-size: 20em;
-    line-height: 90%;
-    margin-top: 20%;
-    position: relative;
-    left: -20rem;
-}
+    .navdiv{
+        align-items: center;
+        text-align: right;
+        margin-right: 1%;
+    }
 
-
-h2{
-    font-family: "League Gothic", sans-serif;
-    font-size: 8em;
-    line-height: 90%;
-    margin-bottom: 20%;
-    position:relative;
-    left: -20rem;
-}
-
-h3{
-    font-family: "League Gothic", sans-serif;
-}
-
-p{
-    font-family: "Sofia Sans Condensed";
-    font-size: 1.5em;
-    line-height: 100%;
-}
-
-article{
-    margin-bottom: 10%;
-}
-
-footer{
-    position: relative;
-    display:block;
-    overflow: hidden;
-    width:100vw;
-    padding-top: 50px;
-    box-sizing: border-box;
-    z-index: 0;
-    background-color: black;
-    background-image: url('/totk.images/swirly.pattern.jpeg');
-    background-size: cover;
-    margin: 0%;
-}
-
-.footerinfo{
-    padding-left:10%;
-}
-
-a{
-    color:  rgb(255, 247, 237);
-    text-decoration: none;
-}
-
-a:hover{
-    color: rgb(253, 239, 136);
-}
-
-
-li{
-    list-style-type: none;
-    font-family: "Sofia Sans Condensed";
-    line-height: 75%;
-
-}
-
-.row{
-    float: none;
-}
-
-.navbar{
-    position: fixed;
-    display: inline-block;
-    top: 0px;
-    left: 0px;
-    height: 80px;
-    width: 100%;
-    z-index: 5;
-    background-color: black;
-    background-image: url('/totk.images/swirly.pattern.jpeg');
-    background-size: cover;
-}
-
-.navdiv{
-    align-items: center;
-    text-align: right;
-    margin-right: 1%;
-}
+        #logo{
+        scale: 75%;
+    }
+/*end*/
 
 
 
-#spoiler{
-    scale: 50%;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 7s linear infinite;
-}
-
-#maintitle{
-    position: relative;
-    top: -12rem;
-    color:rgb(255, 247, 237);
-}
-
-#characterstitle{
-    margin-bottom: 20%;
-}
-
-#logo{
-    scale: 75%;
-}
-
-#mastersword{
-    position: relative;
-    z-index: 6;
-}
-
-
-.three{
-    margin-bottom:-55px;
-}
-
-.warning {
-    position: relative;
-    top: -7rem;
-    right: -10rem;
-}
+/*warning circle*/
+    .warning {
+        position: relative;
+        top: -7rem;
+        right: -10rem;
+    }
+    #spoiler{
+        scale: 50%;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 7s linear infinite;
+    }
+/*end*/
 
 .educational {
     font-size: 1em;
 }
 
+/* media queries for iphone */
+    @media screen and (max-width: 500px) {
+      body {
+        background-color: rgb(42, 31, 26);
+      }
+      h1{
+            left: 0rem;
+            font-size:10em;
+            margin-left: 5%;
+      }
+      h2{
+        left:0rem;
+        font-size:2em;
+        margin-left:5%;
+      }
 
+      #backgroundtitle{
+        font-size:5em;
+      }
 
-@media screen and (max-width: 390px) {
-  body {
-    background-color: lightgreen;
-  }
-  h1{
-        left: 0rem;
-        font-size:10em;
-        margin-left: 5%;
-  }
-  h2{
-    left:0rem;
-    font-size:2em;
-    margin-left:5%;
-  }
+      #characterstitle{
+        font-size: 5em;
 
-  #backgroundtitle{
-    font-size:5em;
-  }
+      }
 
-  #characterstitle{
-    font-size: 5em;
-  }
+      #characters{
+        position:relative;
+        top:-30rem
+      }
 
-  #maintitle{
-    position: relative;
-    top: 0rem;
-  }
+      #maintitle{
+        position: relative;
+        top: 0rem;
+      }
 
-  #spoiler{
-    scale: 25%;
-}
-.warning {
-    position: relative;
-    top: -60rem;
-    right: -15rem;
+      #spoiler{
+        scale: 25%;
     }
-    
-  .content{
-    margin-left: 5%;
-    margin-right: 5%;
+    .warning {
+        position: relative;
+        top: -60rem;
+        right: -15rem;
+        }
+        
+      .content{
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+    .character-image{
+        margin-bottom:20%;
+    }
+
+
+
+    .contact{
+        margin-top:10%;
+    }
+
+
+    body{
+        background-size:200vw;
+    }
+
+    .dropdown-content {
+      height: 200vw;
+    }
   }
-.character-image{
-    margin-bottom:20%;
-}
+/*end*/
 
+/* animations and transitions */
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
 
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
 
-.contact{
-    margin-top:10%;
-}
+    @keyframes slideinright {
+        from{
+            transform: translateX(500px);}
+        to{
+            transform: translateX(0);
+            }
+        
+    }
+/*end*/
 
-
-body{
-    background-size:200vw;
-}
-
-  
-}
-
-
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-
-/* w3 schools test */
-
-.character-wrapper {
-    position: relative;
-    
-  }
-  
-  .character-image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-  
-  .middle-text {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  .character-wrapper:hover .character-image {
-    opacity: 0.3;
-  }
-  
-  .character-wrapper:hover .middle-text {
-    opacity: 1;
-  }
-  
-  .image-text {
-    color:rgb(255, 247, 237);
-    font-family: "Sofia Sans Condensed";
-    font-size: 1.5em;
-    padding: 16px 32px;
-  }
-
-  /* end w3schools test */
+/*character image hovers*/
+    .character-wrapper {
+        position: relative;
+        
+      }
+      
+      .character-image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      
+      .middle-text {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      
+      .character-wrapper:hover .character-image {
+        opacity: 0.3;
+      }
+      
+      .character-wrapper:hover .middle-text {
+        opacity: 1;
+      }
+      
+      .image-text {
+        color:rgb(255, 247, 237);
+        font-family: "Sofia Sans Condensed";
+        font-size: 1.5em;
+        padding: 16px 32px;
+      }
+  /* end*/
