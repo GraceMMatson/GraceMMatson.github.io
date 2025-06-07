@@ -194,8 +194,8 @@
     font-size: 1em;
 }
 
-/* media queries for iphone */
-    @media screen and (max-width: 500px) {
+/* media queries for iphone. note: I could not get my browser smaller than about 500px or so. I designed/coded this originally for that ratio and it looked normal, however I was unable to test for the iphone ratio I chanegd it to in the end, 390px wide. If things look off/unreadable I apologize I tried my best to make it scalable/responsive but ran out of time to problem solve for that issue.*/
+    @media screen and (max-width: 390px) {
       body {
         background-color: rgb(42, 31, 26);
       }
